@@ -23,7 +23,7 @@ body{
 }
 
 .section-paragraph{
-    @apply max-w-3xl mx-auto text-xl leading-9 text-center text-grayishBlue;
+    @apply max-w-3xl mx-auto leading-9 text-center text-grayishBlue;
 }
 
 @media (max-width: 576px){
@@ -34,4 +34,8 @@ body{
 
 .button-container{
     @apply flex flex-col text-xl justify-center w-full space-y-6 text-white md:space-y-0 md:space-x-4 md:flex-row;
+}
+
+.ficon:hover{
+    filter:invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg) brightness(101%) contrast(94%)
 }
